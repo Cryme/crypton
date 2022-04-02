@@ -5,8 +5,7 @@ import { readFileSync } from 'fs'
 const { SystemProgram } = anchor.web3;
 const os = require('os');
 
-//wallet - ./keypair.json
-//program - AugCL9CzhtXXsL5W8ZQNmSohqEz9gGBHQRKYE1DC5amA
+
 async function main() {
   // #region main
   const reader = require("readline-sync");
